@@ -11,8 +11,8 @@ db:
   password: YWRtaW4xMjM=
   storage: 3Gi
   storageClass: gp2
-  replicas: 2
+  replicas: 1
 
 ingress:
-  host: www.lumiatechs.com
+  host: www.app.conceptix-art.com
   className: nginx
